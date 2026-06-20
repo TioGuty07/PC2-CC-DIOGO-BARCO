@@ -13,7 +13,7 @@ from streamlit_pdf_viewer import pdf_viewer
 
 GOOGLE_API_KEY = st.secrets["app"]["AQ.Ab8RN6lojRwcpnf6i5lZH7d29voY6hxc-TTa1kdk9qqeknwWRw"]
 MONGODB_URI = st.secrets["app"]["mongodb+srv://barcodiogo:locoalegre7@cluster0.vihzsjv.mongodb.net/?appName=Cluster0"]
-COHERE_API_KEY = st.secrets["app"]["cohere_78oZ8S89RxTxtnurNGu804yJZV6nsJsuS4As1toh1vAMv6"]
+COHERE_API_KEY = st.secrets["app"]["78oZ8S89RxTxtnurNGu804yJZV6nsJsuS4As1toh"]
 USER = st.secrets["app"].get("USER", "Diogo Barco")
 
 if not GOOGLE_API_KEY or not MONGODB_URI:
