@@ -11,10 +11,10 @@ from streamlit_pdf_viewer import pdf_viewer
 # CONFIGURACIÓN
 # =======================
 
-GOOGLE_API_KEY = st.secrets["app"]["GOOGLE_API_KEY"]
-MONGODB_URI = st.secrets["app"]["MONGODB_URI"]
-COHERE_API_KEY = st.secrets["app"]["COHERE_API_KEY"]
-USER = st.secrets["app"].get("USER", "")
+GOOGLE_API_KEY = st.secrets["app"]["AQ.Ab8RN6lojRwcpnf6i5lZH7d29voY6hxc-TTa1kdk9qqeknwWRw"]
+MONGODB_URI = st.secrets["app"]["mongodb+srv://barcodiogo:locoalegre7@cluster0.vihzsjv.mongodb.net/?appName=Cluster0"]
+COHERE_API_KEY = st.secrets["app"]["cohere_1WdJvWFEY6Tn7wXpP8ZF032KgbghCo2i1n4IY16p1VUvGE"]
+USER = st.secrets["app"].get("USER", "Diogo Barco")
 
 if not GOOGLE_API_KEY or not MONGODB_URI:
     st.error("❌ Faltan GOOGLE_API_KEY o MONGODB_URI en secrets")
